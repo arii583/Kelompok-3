@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Peta Interaktif - Jelajah Budaya</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-nav">
+    <a href="index.html" class="brand">Jelajah Budaya</a>
+    <button class="menu-toggle" aria-label="Buka Menu">☰</button>
+    <div class="nav-links">
+      <a href="index.html" class="btn-home">🏠 Home</a>
+      <a href="sitemap.html">Sitemap</a>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" id="breadcrumb" aria-label="breadcrumb"></nav>
+
+  <main>
+    <h1>Peta Interaktif</h1>
+    <p>Jelajahi lokasi geografis Suku Boti dan titik-titik penting kebudayaan lainnya di NTT. Peta ini terintegrasi langsung dengan Google Maps.</p>
+
+    <div class="map-wrapper">
+      <!-- Ganti URL src di bawah dengan lokasi spesifik Suku Boti / Kampung Bena -->
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3945.548295776779!2d124.4618!3d-9.8833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwNTMnMDAuMCJTIDEyNMKwMjcnNDIuNSJF!5e0!3m2!1sid!2sid!4v1620000000000!5m2!1sid!2sid" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Peta Lokasi Suku Boti">
+      </iframe>
+    </div>
+
+    <div class="ai-note">
+      <strong>Catatan Arsitektur:</strong> Halaman ini adalah <em>leaf node</em> (titik akhir) dalam graf hypermedia. Pengguna yang sampai di sini biasanya telah menyelesaikan penjelajahan, sehingga fokusnya adalah pada eksplorasi peta, bukan navigasi keluar.
+    </div>
+  </main>
+
+  <footer>&copy; 2026 Jelajah Budaya NTT. Tugas Kelompok LTK / Proyek Mini OBE.</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
